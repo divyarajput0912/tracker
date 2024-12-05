@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-image: url(../ttt.jpg);
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgb(118, 212, 240);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #expense-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #expense-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #total-expenses {
+    text-align: right;
+    font-size: 1.2em;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
